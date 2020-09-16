@@ -3,13 +3,19 @@
 #include <limits.h>
 int main()
 {
-    int num = 0;
-    printf("The size of int is:%d byte", sizeof(num));
-    printf("\nThe maximum size for integer num is:%d", INT_MAX);
-    printf("\nThe minimum size for integer num is:%d", INT_MIN);
-    signed long int dot = 0;
-    printf("\nThe size of signed long int is:%d byte", sizeof(dot));
-    printf("\nThe maximum size for signed long int is:%d", LONG_MAX);
+    unsigned long long int var = 0;
+    printf("The size of unsigned long int var is:%d", sizeof(var));
+    printf("\nThe maximum size of unsigned long long int var is:%llu", ULLONG_MAX);
+    unsigned long int bar = 0;
+    printf("\nThe size of unsigned int bar is:%d", sizeof(bar));
+    printf("\nThe maximum size of unsigned long int is:%lu", ULONG_MAX);
+    //int num=0;
+    //printf("The size of int is:%d byte",sizeof(num));
+    //printf("\nThe maximum size for integer num is:%d",INT_MAX);
+    //printf("\nThe minimum size for integer num is:%d",INT_MIN);
+    //signed long int dot=0;
+    //printf("\nThe size of signed long int is:%d byte",sizeof(dot));
+    //printf("\nThe maximum size for signed long int is:%d",LONG_MAX);
     //unsigned char var='t';
     //unsigned short int dor=0;
     //short signed int a=0;
