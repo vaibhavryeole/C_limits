@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <limits.h>
 #include <float.h>
-#include <math.h>
-#include <cfloat>
 int main()
 {
     int i = 0;/*Similar as signed long int datatype*/
